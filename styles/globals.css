@@ -1,16 +1,23 @@
-html,
+html {
+  font-size: 100%;
+}
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f4f9ff;
+  color: #333;
+  font-size: 0.875rem;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+/* サイト全体のコンテンツ幅を設定 */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
-
-* {
-  box-sizing: border-box;
+/* 中のコンテンツ部分の最大幅を設定 */
+.inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.section-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
